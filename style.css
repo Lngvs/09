@@ -1,0 +1,128 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://img.freepik.com/free-photo/brown-wooden-textured-flooring-background_53876-129599.jpg?w=360);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-size: 0;
+}
+body main {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  width: 70%;
+  height: 40%;
+  text-align: center;
+  font-size: 0;
+}
+body main div {
+  width: 65%;
+  height: 100%;
+  display: inline-block;
+  text-align: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+body main h1 {
+  margin-top: 2.5em;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 1000;
+}
+body main span {
+  display: block;
+  margin-top: 1em;
+  color: white;
+  font-size: 0.9rem;
+  opacity: 0.5;
+  width: 70%;
+}
+body main form {
+  display: inline-block;
+  width: 30%;
+  margin: 0 auto;
+  color: white;
+  height: 100%;
+  font-size: 1rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+body main form input {
+  margin-top: 1em;
+  width: 100%;
+  height: 10%;
+  border: none;
+  border-radius: 0.5em;
+}
+body main form input.big {
+  height: 40%;
+  overflow: auto;
+  resize: both;
+  display: inline-block;
+}
+body main form button {
+  width: 100%;
+  margin-top: 1em;
+  padding: 1em 0;
+}
+body main p {
+  width: 100%;
+  font-size: 0.8em;
+  color: rgba(255, 255, 255, 0.937);
+  height: 5%;
+  margin-top: 1em;
+}/*# sourceMappingURL=style.css.map */
